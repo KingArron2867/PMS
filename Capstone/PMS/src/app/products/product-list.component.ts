@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 import { IProduct } from './product';
 import { ProductService } from './product.service';
 
@@ -8,13 +7,13 @@ import { ProductService } from './product.service';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent implements OnInit {
-  pageTitle = 'Product List';
-  imageWidth = 50;
-  imageMargin = 2;
-  showImage = false;
-  errorMessage = '';
+  pageTitle: string = 'Product List';
+  imageWidth: number = 50;
+  imageMargin: number = 2;
+  showImage: boolean = false;
+  errorMessage: string;
 
-  _listFilter = '';
+  _listFilter: string;
   get listFilter(): string {
     return this._listFilter;
   }
@@ -23,7 +22,7 @@ export class ProductListComponent implements OnInit {
     this.filteredProducts = this.listFilter ? this.performFilter(this.listFilter) : this.products;
   }
 
-  filteredProducts: IProduct[] = [];
+  filteredProducts: IProduct[];
   products: IProduct[] = [];
 
   constructor(private productService: ProductService) { }
