@@ -9,3 +9,4 @@ export class ConvertToSpacesPipe implements PipeTransform {
     return value.replace(character, ' ');
   }
 }
+ 
