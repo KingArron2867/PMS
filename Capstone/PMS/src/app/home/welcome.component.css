@@ -1,12 +1,19 @@
 .card {
-    background-color: rgba(128, 128, 128, 0.466);
-    
-    color: black;
+    background-color: rgba(0, 0, 0, 0.57);
+    color: rgb(255, 255, 255);
 }
 
-.card-header{
-    background-color: hotpink;
+.card-header {
+    background-color: rgba(21, 21, 21, 0.68) ;
 }
+
+
+
+
+
+
+
+
 
 
 

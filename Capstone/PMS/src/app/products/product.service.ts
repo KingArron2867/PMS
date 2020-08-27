@@ -9,6 +9,9 @@ import { IProduct } from './product';
   providedIn: 'root'
 })
 export class ProductService {
+  getProduct(id: number) {
+    throw new Error("Method not implemented.");
+  }
   private productUrl = 'api/products/products.json';
 
   constructor(private http: HttpClient) { }

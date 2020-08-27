@@ -4,6 +4,7 @@
 
 div.card-header {
  font-size: large;
+
 }
 
 div.card {
@@ -14,4 +15,20 @@ div.card {
 .table {
   margin-top: 10px
 }
+
+html, body {
+  background-color: black;
+  background-image: url(./assets/images/background.jpg);
+  background-position: center;
+  
+  
+}
+
+.navbar-expand .navbar-light .bg-light {
+  color: rgb(151, 135, 222);
+}
+
+
+
+
 
