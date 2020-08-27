@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 export class ProductDetailGuard implements CanActivate {
 
   constructor(private router: Router) { }
-
+ 
   canActivate(
     next: ActivatedRouteSnapshot,
     state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
