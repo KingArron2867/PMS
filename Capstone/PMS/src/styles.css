@@ -13,7 +13,8 @@ div.card {
 }
 
 .table {
-  margin-top: 10px
+  margin-top: 10px;
+  color: aliceblue;
 }
 
 html, body {
@@ -26,6 +27,16 @@ html, body {
 
 .navbar-expand .navbar-light .bg-light {
   color: rgb(151, 135, 222);
+}
+
+
+.card {
+  background-color: rgba(0, 0, 0, 0.57);
+  color: rgb(255, 255, 255);
+}
+
+.card-header {
+  background-color: rgba(21, 21, 21, 0.68) ;
 }
 
 
