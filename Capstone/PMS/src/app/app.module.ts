@@ -9,12 +9,14 @@ import { ProductDetailGuard } from './products/product-detail.guard';
 import { ProductModule } from './products/product.module';
 
 import { ContactComponent } from './contact/contact.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    ContactComponent
+    ContactComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
