@@ -2,7 +2,7 @@ This application mimics a Product Management system.
     Features:
         - Rating system
         - Navagation bar
-        - Displays an array of diffrent products, along with their description, rating, price, product number and release date. 
+        - Displays an array of diffrent products, along with their description, rating, price, product number and availability. 
         - Search/filter function 
         - Product details // IN PROGRESS
 

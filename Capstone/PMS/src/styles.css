@@ -25,9 +25,7 @@ html, body {
   
 }
 
-.navbar-expand .navbar-light .bg-light {
-  color: rgb(151, 135, 222);
-}
+
 
 
 .card {
@@ -39,7 +37,49 @@ html, body {
   background-color: rgba(21, 21, 21, 0.68) ;
 }
 
+.nav-link {
+  color: rgb(98, 97, 97);
+  /* color of Home, Productlist, Contact */
+}
 
+.nav-link:hover {
+  /* hover over color  */
+  color: rgb(211, 146, 6);
+  
+}
 
+nav {
+  /* background color of nav */
+  background-color: rgba(255, 255, 0, 0.123);
+}
 
+.navbar-brand {
+  color: rgb(211, 146, 6);
+}
+
+.btn-primary{
+  border: 0px;
+  background-color: rgb(255, 123, 0);
+  
+}
+
+.btn-primary:hover {
+  color: rgb(90, 18, 18);
+  background-color: rgba(255, 123, 0, 0.787);
+  
+  
+}
+
+.btn :focus{
+  background-color: teal;
+}
+
+a {
+  
+  color: yellow;
+}
+
+a:hover{
+  color: blanchedalmond;
+}
 
