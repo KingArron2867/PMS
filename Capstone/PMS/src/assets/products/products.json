@@ -48,5 +48,35 @@
     "price": 49.99,
     "starRating": 4.6,
     "imageUrl": "assets/images/video game controller.png"
+  },
+  {
+    "productId": 19,
+    "productName": "Ro-Buddy",
+    "productCode": "T9X-9000",
+    "releaseDate": "9/1/2020",
+    "description": "Robot Buddy comes with: Instructions, upgrade kit. Nuclear Reactor sold separately",
+    "price": 299.99,
+    "starRating": 5.0,
+    "imageUrl": "assets/images/robot.png"
+  },
+  {
+    "productId": 41,
+    "productName": "Nuclear Reactor upgrade",
+    "productCode": "NCR-0001",
+    "releaseDate": "9/1/2020",
+    "description": "Nuclear Reactor upgrade Compatibility : T9X-9000, T9X-800, T9X-9002",
+    "price": 199.99,
+    "starRating": 4.8,
+    "imageUrl": "assets/images/nuclear reactor.png"
+  },
+  {
+    "productId": 19,
+    "productName": "Guard Bot",
+    "productCode": "GB-001",
+    "releaseDate": "9/12/2020",
+    "description": "Perimeter master programming. Enjoy privacy and safety.",
+    "price": 1299.99,
+    "starRating": 5.0,
+    "imageUrl": "assets/images/Guard Bot.png"
   }
 ]
