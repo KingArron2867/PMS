@@ -70,6 +70,16 @@
     "imageUrl": "assets/images/nuclear reactor.png"
   },
   {
+    "productId": 77,
+    "productName": "Chem suit",
+    "productCode": "Cs",
+    "releaseDate": "7/13/2021",
+    "description": "Chem suit to protect you while your out in the wasteland",
+    "price": 34.19,
+    "starRating": 3.2,
+    "imageUrl": "assets/images/chem.png"
+  },
+  {
     "productId": 19,
     "productName": "Guard Bot",
     "productCode": "GB-001",
