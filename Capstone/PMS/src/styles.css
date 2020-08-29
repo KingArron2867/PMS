@@ -24,7 +24,7 @@ html, body {
   
 }
 
-
+  
 
 
 .card {
@@ -37,7 +37,7 @@ html, body {
 }
 
 .nav-link {
-  color: rgb(98, 97, 97);
+  color: rgb(149, 149, 149);
   /* color of Home, Productlist, Contact */
 }
 
